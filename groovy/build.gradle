@@ -1,0 +1,5 @@
+task broken {
+    doLast {
+        println "configurations = ${configurations}"
+    }
+}
