@@ -6,8 +6,7 @@ tasks.register("heap") {
     val configTime = LargeThing(30)
     project.ext.set("large", configTime)
     doLast {
-        val execTime = LargeThing(60)
-//        Thread.sleep(5 * 60 * 1000)
+        val execTime = LargeThing(70)
         println("exec time = $execTime")
     }
 }
