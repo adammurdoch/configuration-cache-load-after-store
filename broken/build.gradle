@@ -1,5 +1,6 @@
 task broken {
     doLast {
+        // Cannot access `Project` state ('configurations' is a property of `Project`)
         println "configurations = ${configurations}"
     }
 }
