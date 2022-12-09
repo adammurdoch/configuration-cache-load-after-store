@@ -1,7 +1,7 @@
 
 tasks.register("run") {
-    println("Configuring $this (${System.identityHashCode(this)})")
+    println("Configuring $this (instance = ${System.identityHashCode(this)})")
     doLast {
-        println("Running $this (${System.identityHashCode(this)})")
+        println("Running $this (instance = ${System.identityHashCode(this)})")
     }
 }
